@@ -25,7 +25,7 @@ const Header = () => {
             {/*<span className="logo-placeholder">LOGO AQUI</span>*/}
         </div>
 
-        <div className="header-space"></div>
+        <div className="header-spacer"></div>
 
       {/* Sidebar de navegação */}
       <nav className={`sidebar ${isSidebarOpen ? 'is-open' : ''}`}>
