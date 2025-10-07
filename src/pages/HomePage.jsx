@@ -1,5 +1,4 @@
-import React from "react"
-import ClassificationTable from "../components/ClassificationTable";
+import ClassificationTable from '../components/ClassificationTable'
 
 const groupATeams = [
   { id: 1, name: 'Barra Nova', P: 1, V: 0, E: 1, D: 0, GP: 1, GC: 1, SG: 0 },
@@ -7,30 +6,59 @@ const groupATeams = [
   { id: 3, name: 'Plejusc', P: 0, V: 0, E: 0, D: 1, GP: 1, GC: 3, SG: -2 },
   { id: 4, name: 'Cachoeirinha', P: 3, V: 1, E: 0, D: 0, GP: 3, GC: 1, SG: 2 },
   { id: 5, name: 'Pasta', P: 0, V: 0, E: 0, D: 0, GP: 0, GC: 0, SG: 0 },
-];
+]
 
 const groupBTeams = [
-    { id: 1, name: 'Cruz Azul', P: 3, V: 1, E: 0, D: 0, GP: 3, GC: 0, SG: 3},
-    { id: 2, name: 'Assentamento (St. Tereza)', P: 0, V: 0, E: 0, D: 1, GP: 0, GC: 3, SG: -3},
-    { id: 3, name: 'Trem das Onze', P: 0, V: 0, E: 0, D: 1, GP: 2, GC: 6, SG: -4},
-    { id: 4, name: 'Juventus', P: 3, V: 1, E: 0, D: 0, GP: 6, GC: 2, SG: 4},
-    { id: 5, name: 'Riacho do Tigre', P: 0, V: 0, E: 0, D: 0, GP: 0, GC: 0, SG: 0}
-];
+  { id: 1, name: 'Cruz Azul', P: 3, V: 1, E: 0, D: 0, GP: 3, GC: 0, SG: 3 },
+  {
+    id: 2,
+    name: 'Assentamento (St. Tereza)',
+    P: 0,
+    V: 0,
+    E: 0,
+    D: 1,
+    GP: 0,
+    GC: 3,
+    SG: -3,
+  },
+  {
+    id: 3,
+    name: 'Trem das Onze',
+    P: 0,
+    V: 0,
+    E: 0,
+    D: 1,
+    GP: 2,
+    GC: 6,
+    SG: -4,
+  },
+  { id: 4, name: 'Juventus', P: 3, V: 1, E: 0, D: 0, GP: 6, GC: 2, SG: 4 },
+  {
+    id: 5,
+    name: 'Riacho do Tigre',
+    P: 0,
+    V: 0,
+    E: 0,
+    D: 0,
+    GP: 0,
+    GC: 0,
+    SG: 0,
+  },
+]
 
-function HomePage () {
-    return (
-        <div style ={{ padding: '20px', textAlign: 'center'}}>
-            <h2>Classificação</h2>
+function HomePage() {
+  return (
+    <div>
+      <h2>Classificação</h2>
 
-            <div className="classification-tables-grid"> {/* Grid para as tabelas */}
-                <ClassificationTable groupName="A" teams={groupATeams} />
-                <div className="groups-spacer"></div>
-                <ClassificationTable groupName="B" teams={groupBTeams} />
-            </div>
-        </div>
-            
-    )
+      <div className="classification-tables-grid">
+        {/* Grid para as tabelas */}
+        <ClassificationTable groupName="A" teams={groupATeams} />
+        {/* <div className="groups-spacer"></div> */}
+        <ClassificationTable groupName="B" teams={groupBTeams} />
+      </div>
+    </div>
+  )
 }
 
-export default HomePage;
-
+export default HomePage

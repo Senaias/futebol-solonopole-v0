@@ -25,10 +25,9 @@ const Header = () => {
 
       <div className="header-logo">
         <img src={Logo} alt="Logo da Competição" />
-        {/*<span className="logo-placeholder">LOGO AQUI</span>*/}
       </div>
 
-      <div className="header-spacer"></div>
+      <div className="header-spacer" />
 
       {/* Sidebar de navegação */}
       <nav className={`sidebar ${isSidebarOpen ? 'is-open' : ''}`}>
