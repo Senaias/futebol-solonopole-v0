@@ -31,6 +31,7 @@ const Header = () => {
       <nav className={`sidebar ${isSidebarOpen ? 'is-open' : ''}`}>
                 <ul className="sidebar-menu">
                     <li> <Link to="/" onClick={toggleSidebar}>Início</Link></li>
+                    <li> <Link to="/jogos" onClick={toggleSidebar}>Jogos</Link></li>
                     <li> <Link to="/equipes" onClick={toggleSidebar}>Equipes</Link></li>
                     <li> <Link to="/mata-mata" onClick={toggleSidebar}>Mata-Mata</Link></li>
                     <li> <Link to="/artilharia" onClick={toggleSidebar}>Artilharia</Link></li>

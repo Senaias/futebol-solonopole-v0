@@ -1,0 +1,70 @@
+.classification-table-container {
+  margin-bottom: 40px;
+  /*background-color: rgba(0, 38, 27, 1);*/ /* Fundo sutil para o container da tabela */
+  padding: 20px;
+  border-radius: 0px;
+  text-align: left;
+}
+
+.classification-table-container h3 {
+  color: black;/*var(--text-color);*/
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto; /* Permite scroll horizontal em telas pequenas */
+}
+
+.table-header {
+    color: white;
+}
+
+.classification-table {
+  width: 100%;
+  border-collapse: collapse; /* Remove espaçamento entre as células */
+  text-align: center;
+  color: black; /*var(--text-color); */
+  
+}
+
+.classification-table th,
+.classification-table td {
+  padding: 0.75em 0.5em; /* Ajuste o padding para não ficar apertado */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+}
+
+.classification-table th {
+  background-color: #00261b;/*var(--table-header-bg);  Fundo para cabeçalhos */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.classification-table tbody tr:nth-child(odd) {
+  background-color: var(--table-row-bg-odd); /* Fundo para linhas ímpares */
+}
+
+.classification-table tbody tr:nth-child(even) {
+  background-color: var(--table-row-bg-even); /* Fundo para linhas pares */
+}
+
+.classification-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Hover sutil */
+}
+
+.team-name-cell {
+  text-align: left; /* Nome do time alinhado à esquerda */
+  display: flex; /* Para alinhar logo e nome */
+  align-items: center;
+  gap: 10px; /* Espaço entre logo e nome */
+}
+
+.team-logo {
+  width: 24px; /* Tamanho do logo na tabela */
+  height: 24px;
+  object-fit: contain; /* Garante que o logo não seja cortado */
+  margin-right: 5px;
+}

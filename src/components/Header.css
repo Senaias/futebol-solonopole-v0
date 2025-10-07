@@ -87,7 +87,6 @@ body {
   z-index: 999; /* Abaixo do header, mas acima do conteúdo da página */
   display: flex; /* Para centralizar os itens verticalmente se necessário */
   flex-direction: column;
-  opacity: 95%;
 }
 
 .sidebar.is-open {
