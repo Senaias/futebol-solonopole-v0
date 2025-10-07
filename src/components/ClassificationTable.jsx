@@ -1,7 +1,7 @@
 import React from "react";
 import './ClassificationTable.css';
 
-// Dados de exemplo para o time (você vai buscar isso do Firebase depois)
+// Dados de exemplo
 // Pontos (P), Vitórias (V), Empates (E), Derrotas (D), Gols Pró (GP), Gols Contra (GC), Saldo de Gols (SG)
 const initialTeamsData = [
   { id: 1, name: 'Time Alfa', logo: null, P: 10, V: 3, E: 1, D: 0, GP: 8, GC: 2, SG: 6 },
