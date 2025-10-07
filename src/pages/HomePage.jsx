@@ -1,4 +1,5 @@
 import ClassificationTable from '../components/ClassificationTable'
+import './HomePage.css'
 
 const groupATeams = [
   { id: 1, name: 'Barra Nova', P: 1, V: 0, E: 1, D: 0, GP: 1, GC: 1, SG: 0 },
@@ -48,7 +49,7 @@ const groupBTeams = [
 
 function HomePage() {
   return (
-    <div>
+    <div className="home-page-container">
       <h2>Classificação</h2>
 
       <div className="classification-tables-grid">

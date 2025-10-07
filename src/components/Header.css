@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding-top: 70px; /* Ajuste conforme a altura do seu header */
+  padding-top: 105px; /* Ajuste conforme a altura do seu header */
   min-width: 320px;
   min-height: 100vh;
   box-sizing: border-box; /* Para padding-top funcionar com altura total */

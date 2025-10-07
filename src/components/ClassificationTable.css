@@ -1,11 +1,3 @@
-.classification-tables-grid {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-direction: column;
-  background: red;
-}
-
 .classification-table-container {
   /* margin-bottom: 40px; */
   /*background-color: rgba(0, 38, 27, 1);*/ /* Fundo sutil para o container da tabela */
