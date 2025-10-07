@@ -1,0 +1,17 @@
+.home-page-container{ 
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.classification-tables-grid {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 90%;
+}

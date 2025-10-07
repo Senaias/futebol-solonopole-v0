@@ -1,9 +1,9 @@
 .classification-table-container {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   /*background-color: rgba(0, 38, 27, 1);*/ /* Fundo sutil para o container da tabela */
-  padding: 20px;
-  border-radius: 0px;
-  text-align: left;
+  /* padding: 20px; */
+  /* border-radius: 0px; */
+  /* text-align: left; */
 }
 
 .classification-table-container h3 {
@@ -29,11 +29,23 @@
   
 }
 
+.classification-table th {
+user-select: none;
+}
+
 .classification-table th,
 .classification-table td {
   padding: 0.75em 0.5em; /* Ajuste o padding para não ficar apertado */
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+  
+}
+
+.teamName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  display: block;
 }
 
 .classification-table th {
