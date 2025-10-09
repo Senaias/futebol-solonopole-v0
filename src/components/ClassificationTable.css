@@ -18,7 +18,10 @@
 }
 
 .table-header {
-    color: white;
+  color: white;
+}
+.classification-tables-grid {
+  width: 100%;
 }
 
 .classification-table {
@@ -30,7 +33,7 @@
 }
 
 .classification-table th {
-user-select: none;
+  user-select: none;
 }
 
 .classification-table th,
@@ -79,4 +82,14 @@ user-select: none;
   height: 24px;
   object-fit: contain; /* Garante que o logo não seja cortado */
   margin-right: 5px;
+}
+
+.classification-table tbody tr:nth-child(1){
+  background-color: rgba(7, 171, 83, 0.6);
+  width: 10%;
+}
+
+.classification-table tbody tr:nth-child(2){
+  background-color: rgba(7, 171, 83, 0.6);
+  width: 10%;
 }

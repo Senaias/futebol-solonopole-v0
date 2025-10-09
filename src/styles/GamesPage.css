@@ -6,21 +6,21 @@
 }
 
 .games-page-container h2 {
-  color: var(--text-color);
-  margin-bottom: 20px;
+  color: black;
   font-size: 2.5em;
+  margin-bottom: 20px;
 }
 
 .games-page-container p {
-  color: var(--text-color);
+  color: black /*var(--text-color)*/;
   font-size: 1.1em;
   margin-bottom: 30px;
 }
 
+
 .game-date-separator {
   background-color: #00261b;
   padding: 10px;
-  border-radius: 5px;
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 1.3em;
@@ -29,14 +29,43 @@
 }
 
 .game-list {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  border-radius: 8px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 
 .game-list p {
   margin: 10px 0;
   font-size: 1.1em;
-  color: var(--text-color);
+  color: black;/*var(--text-color);*/;
+  
+}
+
+.match-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  vertical-align: top;
+  justify-content: space-between;
+  color: black;
+}
+
+.team-name-scoreboard-left {
+  text-align: right;
+  width: 45%;
+}
+.scoreboard{
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.3em;
+  margin: 0 0.5em;
+  color: #00261b;
+  font-weight: bold;
+}
+.team-name-scoreboard-right {
+  text-align: left;
+  width: 45%;
+}
+
+.vs-icon {
 }

@@ -75,7 +75,7 @@ body {
   width: 280px; /* Largura da sidebar */
   height: 100vh;
   background-color: #07ab53; /* Cor de fundo da sidebar */
-  padding-top: 70px; /* Espaço para o header */
+  padding-top: 75px; /* Espaço para o header */
   box-shadow: 2px 0 10px rgba(0,0,0,0.4);
   transition: left 0.3s ease-in-out;
   z-index: 999; /* Abaixo do header, mas acima do conteúdo da página */

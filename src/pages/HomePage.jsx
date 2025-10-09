@@ -50,6 +50,7 @@ const groupBTeams = [
 function HomePage() {
   return (
     <div className="home-page-container">
+      <p>Bem vind@! Aqui você pode acompanhar o andamento da primeira divisão do Campeonato Municipal de Futebol de Solonópole/CE 2025.</p>
       <h2>Classificação</h2>
 
       <div className="classification-tables-grid">
