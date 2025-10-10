@@ -1,40 +1,64 @@
 .games-page-container {
-  padding: 20px;
-  max-width: 900px;
-  margin: 0 auto; /* Centraliza o conteúdo na página */
-  text-align: center; /* Centraliza o texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.games-page-container span.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
 }
 
 .games-page-container h2 {
   color: black;
   font-size: 2.5em;
-  margin-bottom: 20px;
 }
 
 .games-page-container p {
   color: black /*var(--text-color)*/;
-  font-size: 1.1em;
-  margin-bottom: 30px;
+  /* font-size: 1.1em; */
 }
 
+.game-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
 
 .game-date-separator {
-  background-color: #00261b;
+  background: #00261b;
   padding: 10px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.game-date {
   color: var(--text-color);
+  font-size: 1.3em;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .game-list {
-  padding: 10px;
-  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .game-list p {
-  margin: 10px 0;
+  /* margin: 10px 0; */
   font-size: 1.1em;
   color: black;/*var(--text-color);*/;
   
@@ -44,14 +68,17 @@
   width: 100%;
   display: flex;
   align-items: center;
-  vertical-align: top;
-  justify-content: space-between;
   color: black;
 }
 
 .team-name-scoreboard-left {
   text-align: right;
   width: 45%;
+  display: inline-block;
+  /* max-width: 200px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .scoreboard{
   display: flex;
@@ -65,7 +92,14 @@
 .team-name-scoreboard-right {
   text-align: left;
   width: 45%;
+  display: inline-block;
+  /* max-width: 200px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .vs-icon {
+  width: 30px;
+  height: 22px;
 }

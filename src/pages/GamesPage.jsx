@@ -1,18 +1,44 @@
-import React from "react"
-import '../styles/GamesPage.css'; // Vamos criar um CSS específico para a página de jogos
+import '../styles/GamesPage.css' // Vamos criar um CSS específico para a página de jogos
 import VsIcon from '../assets/vs-icon.svg'
+import { schedule } from '../constants/games'
 
-function GamesPage () {
-    return (
-       <div className="games-page-container">
-      <h2>Jogos e Resultados</h2>
-      <p></p>
-      {/* Aqui virão os jogos, separados por data */}
+function GamesPage() {
+  return (
+    <div className="games-page-container">
+      <span className="title">Jogos e Resultados</span>
 
-      {/* Exemplo de um separador de data */}
+      {schedule.map((schedule, index) => (
+        <div className="game-container" key={index}>
+          <div className="game-date-separator">
+            <span className="game-date">{schedule.day}</span>
+          </div>
+
+          {schedule.games.map((game, _index) => (
+            <div className="game-list" key={_index}>
+              <div className="match-card">
+                <span className="team-name-scoreboard-left" title={game.teamA}>
+                  {game.teamA}
+                </span>
+                <span className="scoreboard">
+                  {' '}
+                  {game.scoreA}{' '}
+                  <img src={VsIcon} className="vs-icon" alt="vs" />{' '}
+                  {game.scoreB}{' '}
+                </span>
+                <span className="team-name-scoreboard-right" title={game.teamB}>
+                  {game.teamB}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      ))}
+
+      {/* 
+
       <h3 className="game-date-separator">11 de Outubro</h3>
       <div className="game-list">
-        {/* Futuramente, você terá componentes GameCard aqui */}
+
         <div className="match-card">
             <span className="team-name-scoreboard-left">Riacho do Tigre</span> 
             <span className="scoreboard"> <img src={VsIcon} className="vs-icon" alt="vs" /> </span> 
@@ -60,9 +86,9 @@ function GamesPage () {
           </div>
 
       </div>
+ */}
     </div>
-            
-    )
+  )
 }
 
-export default GamesPage;
+export default GamesPage
