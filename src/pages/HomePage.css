@@ -1,23 +1,24 @@
 .home-page-container{ 
-  padding: 20px;
-  max-width: 900px;
-  margin: 0 auto; /* Centraliza o conteúdo na página */
-  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 20px;
 }
 .home-page-container h2 {
   color: black;
   font-size: 2.5em;
-  margin-bottom: 20px;
 }
 .home-page-container p {
   color: black /*var(--text-color)*/;
   font-size: 1.1em;
-  margin-bottom: 30px;
 }
 .classification-tables-grid {
-  display: flex;
   align-items: center;
   gap: 20px;
   flex-direction: column;
+  min-width: 100px;
+  max-width: 650px;
   width: 100%;
+  margin-bottom: 30px;
 }
