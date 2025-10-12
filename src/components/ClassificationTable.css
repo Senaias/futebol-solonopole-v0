@@ -35,6 +35,10 @@
   user-select: none;
 }
 
+.classification-table tbody tr:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
 .classification-table th,
 .classification-table td {
   padding: 0.75em 0.5em; /* Ajuste o padding para não ficar apertado */
@@ -45,8 +49,12 @@
 .teamName {
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 100px;
+  max-width: 172px;
   display: block;
+
+  @media screen and (max-width: 400px) {
+    max-width: 70px;
+}
 }
 
 .classification-table th {
