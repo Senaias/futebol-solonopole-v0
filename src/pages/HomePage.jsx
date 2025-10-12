@@ -5,8 +5,8 @@ const groupATeams = [
   { id: 1, name: 'Barra Nova', P: 1, V: 0, E: 1, D: 0, GP: 1, GC: 1, SG: 0 },
   { id: 2, name: 'Cangati', P: 1, V: 0, E: 1, D: 0, GP: 1, GC: 1, SG: 0 },
   { id: 3, name: 'Plejusc', P: 0, V: 0, E: 0, D: 1, GP: 1, GC: 3, SG: -2 },
-  { id: 4, name: 'Cachoeirinha', P: 3, V: 1, E: 0, D: 0, GP: 3, GC: 1, SG: 2 },
-  { id: 5, name: 'Pasta', P: 0, V: 0, E: 0, D: 0, GP: 0, GC: 0, SG: 0 },
+  { id: 4, name: 'Cachoeirinha', P: 3, V: 1, E: 0, D: 1, GP: 4, GC: 4, SG: 0 },
+  { id: 5, name: 'Pasta', P: 3, V: 1, E: 0, D: 0, GP: 3, GC: 1, SG: 2 },
 ]
 
 const groupBTeams = [
@@ -33,17 +33,17 @@ const groupBTeams = [
     GC: 6,
     SG: -4,
   },
-  { id: 4, name: 'Juventus', P: 3, V: 1, E: 0, D: 0, GP: 6, GC: 2, SG: 4 },
+  { id: 4, name: 'Juventus', P: 6, V: 2, E: 0, D: 0, GP: 8, GC: 2, SG: 6 },
   {
     id: 5,
     name: 'Riacho do Tigre',
     P: 0,
     V: 0,
     E: 0,
-    D: 0,
+    D: 1,
     GP: 0,
-    GC: 0,
-    SG: 0,
+    GC: 2,
+    SG: -2,
   },
 ]
 

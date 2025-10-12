@@ -1,14 +1,27 @@
 export const schedule = [
   {
+    day: '12 de Outubro',
+    games: [
+      {
+        teamA: 'Assentamento',
+        teamB: 'Trem das Onze',
+        scoreA: null,
+        scoreB: null,
+      },
+      { teamA: 'Cangati', teamB: 'Plejusc', scoreA: null, scoreB: null },
+    ],
+  },
+  
+  {
     day: '11 de Outubro',
     games: [
       {
         teamA: 'Riacho do Tigre',
         teamB: 'Juventus',
-        scoreA: null,
-        scoreB: null,
+        scoreA: 0,
+        scoreB: 2,
       },
-      { teamA: 'Pasta', teamB: 'cachoeirinha', scoreA: null, scoreB: null },
+      { teamA: 'Pasta', teamB: 'cachoeirinha', scoreA: 3, scoreB: 1 },
     ],
   },
   {

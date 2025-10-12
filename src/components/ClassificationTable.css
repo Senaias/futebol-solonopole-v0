@@ -13,6 +13,7 @@
 }
 
 .table-responsive {
+  border-radius: 3px;
   width: 100%;
   overflow-x: auto; /* Permite scroll horizontal em telas pequenas */
 }
@@ -29,7 +30,6 @@
   border-collapse: collapse; /* Remove espaçamento entre as células */
   text-align: center;
   color: black; /*var(--text-color); */
-  
 }
 
 .classification-table th {
