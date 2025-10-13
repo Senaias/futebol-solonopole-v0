@@ -5,10 +5,10 @@ export const schedule = [
       {
         teamA: 'Assentamento',
         teamB: 'Trem das Onze',
-        scoreA: null,
-        scoreB: null,
+        scoreA: 2,
+        scoreB: 2,
       },
-      { teamA: 'Cangati', teamB: 'Plejusc', scoreA: null, scoreB: null },
+      { teamA: 'Cangati', teamB: 'Plejusc', scoreA: 1, scoreB: 1 },
     ],
   },
   
