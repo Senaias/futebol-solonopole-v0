@@ -1,0 +1,64 @@
+h2, p, span{
+  color: black;
+}
+
+.container-top-scorers{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-table-top-score {
+  width: 70%;
+  height: 100%;
+}
+
+.table-top-score {
+  width: 100%;
+}
+
+.header-top-score{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  /* margin-bottom: 10px; */
+}
+
+.container-position {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-bottom: 0.5px solid #f3f0f0;
+}
+
+.line:last-child {
+  border-bottom: none;
+}
+
+.player-container{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.player-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.container-emptyState {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
