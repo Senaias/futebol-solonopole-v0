@@ -2,25 +2,25 @@ import ClassificationTable from '../components/ClassificationTable'
 import './HomePage.css'
 
 const groupATeams = [
-  { id: 1, name: 'Barra Nova', P: 1, V: 0, E: 1, D: 0, GP: 1, GC: 1, SG: 0 },
-  { id: 2, name: 'Cangati', P: 2, V: 0, E: 2, D: 0, GP: 2, GC: 2, SG: 0 },
+  { id: 1, name: 'Barra Nova', P: 2, V: 0, E: 2, D: 0, GP: 1, GC: 1, SG: 0 },
+  { id: 2, name: 'Cangati', P: 5, V: 1, E: 2, D: 0, GP: 5, GC: 3, SG: 2 },
   { id: 3, name: 'Plejusc', P: 1, V: 0, E: 1, D: 1, GP: 2, GC: 4, SG: -2 },
-  { id: 4, name: 'Cachoeirinha', P: 3, V: 1, E: 0, D: 1, GP: 4, GC: 4, SG: 0 },
-  { id: 5, name: 'Pasta', P: 3, V: 1, E: 0, D: 0, GP: 3, GC: 1, SG: 2 },
+  { id: 4, name: 'Cachoeirinha', P: 3, V: 1, E: 0, D: 2, GP: 5, GC: 7, SG: -2 },
+  { id: 5, name: 'Pasta', P: 4, V: 1, E: 1, D: 0, GP: 3, GC: 1, SG: 2 },
 ]
 
 const groupBTeams = [
-  { id: 1, name: 'Cruz Azul', P: 3, V: 1, E: 0, D: 0, GP: 3, GC: 0, SG: 3 },
+  { id: 1, name: 'Cruz Azul', P: 6, V: 2, E: 0, D: 0, GP: 6, GC: 0, SG: 6 },
   {
     id: 2,
     name: 'Assentamento (St. Tereza)',
-    P: 1,
-    V: 0,
+    P: 4,
+    V: 1,
     E: 1,
     D: 1,
-    GP: 2,
-    GC: 5,
-    SG: -3,
+    GP: 6,
+    GC: 7,
+    SG: -1,
   },
   {
     id: 3,
@@ -33,17 +33,17 @@ const groupBTeams = [
     GC: 8,
     SG: -4,
   },
-  { id: 4, name: 'Juventus', P: 6, V: 2, E: 0, D: 0, GP: 8, GC: 2, SG: 6 },
+  { id: 4, name: 'Juventus', P: 6, V: 2, E: 0, D: 1, GP: 10, GC: 6, SG: 4 },
   {
     id: 5,
     name: 'Riacho do Tigre',
     P: 0,
     V: 0,
     E: 0,
-    D: 1,
+    D: 2,
     GP: 0,
-    GC: 2,
-    SG: -2,
+    GC: 5,
+    SG: -5,
   },
 ]
 

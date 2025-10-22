@@ -1,4 +1,56 @@
 export const schedule = [
+ {
+    day: '26 de Outubro',
+    games: [
+      {
+        teamA: 'Plejusc',
+        teamB: 'Pasta',
+        scoreA: "-",
+        scoreB: "-",
+      },
+      { teamA: 'Cruz Azul', teamB: 'Juventus', scoreA: "-", scoreB: "-" },
+    ],
+  },
+
+  {
+    day: '25 de Outubro',
+    games: [
+      {
+        teamA: 'Barra Nova',
+        teamB: 'Cachoeirinha',
+        scoreA: "-",
+        scoreB: "-",
+      },
+      { teamA: 'Trem das Onze', teamB: 'Riacho do Tigre', scoreA: "-", scoreB: "-" },
+    ],
+  },
+  
+  {
+    day: '18 de Outubro',
+    games: [
+      {
+        teamA: 'Cangati',
+        teamB: 'Cachoeirinha',
+        scoreA: 3,
+        scoreB: 1,
+      },
+      { teamA: 'Barra Nova', teamB: 'Pasta', scoreA: 0, scoreB: 0 },
+    ],
+  },
+
+  {
+    day: '18 de Outubro',
+    games: [
+      {
+        teamA: 'Juventus',
+        teamB: 'Assentamento (Sta. Tereza)',
+        scoreA: 2,
+        scoreB: 4,
+      },
+      { teamA: 'Cruz Azul', teamB: 'Riacho do Tigre', scoreA: 3, scoreB: 0 },
+    ],
+  },
+  
   {
     day: '12 de Outubro',
     games: [
